@@ -9,7 +9,6 @@ body{
 	min-height: 100vh;
 	display: flex;
 	flex-direction: column;
-	background-color: gray;
 }
 .conteiner{
 	
@@ -153,19 +152,112 @@ header{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 .main-conteiner{
 	background-color: white;;
 	width: 100%;
+}
+
+
+
+
+
+
+.bottom-conteiner{
+	width:  100%;
+}
+.bottom-conteiner-services{
+	width:  100%;
+	height: 341px;
+	background-color: #222224;	
+}
+.bottom-conteiner-subscribe{
+	width:  100%;
+	height: 448px;	
+	background-image: url(img/bottomBackground.jpg);
+	background-repeat: no-repeat;
+ 	background-position:center 0px;
+ 	display: flex;
+
+}
+.bottom-services{
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.bottom-services-item{
+	height: 100%;
+	width: 32%;
+	background-color: grey;
+}
+.bottom-conteiner-subscribe-item{
+	height: 100%;
+	width: 50%;
+	background-color: rgba(244, 244, 244, 0.7);
+}
+.bottom-conteiner-subscribe-img{
+	margin-top:  100px;
+	max-width: 96px;
+	max-height: 96px;
+}
+.bottom-conteiner-subscribe-text{
+	width: 360px;
+	height: 100px;
+	margin-top: 30px;
+
+}
+.center{
+	display: flex;
+	flex-direction: column;
+ 	align-items:  center;
+}
+.bottom-conteiner-text{
+	font-family: Lato;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 24px;
+	text-align: center;
+	color: #222224;
+}
+.bottom-conteiner-subscribe-link-text{
+	width: 557px;
+	height: 60px;
+	margin-top: 150px;
+}
+.bottom-conteiner-link-text{
+	font-style: normal;
+	font-size: 24px;
+	line-height: 167.2%;
+	text-align: center;
+	color: #222224;
+	font-weight: 400;
+}
+.bottom-conteiner-link-inputarea{
+	background-color: #E1E1E1;
+	width:256px;
+	height:49px;
+	border-radius:  20px 0 0 20px;
+	border-color:#E1E1E1;
+	margin-left: 40px;
+	margin-right:  0px;
+	border-width: 0;
+	padding-left: 22px;
+}
+.bottom-conteiner-link_button{
+	color: #FFFFFF;
+	width:100px;
+	height:49px;
+	border-radius: 0 20px 20px 0;
+	background:#F16D7F;
+	border-color:#F16D7F;
+	font-size: 14px;
+	cursor:pointer;
+	font-style: normal;
+	font-weight: normal;
+	border-width: 0;
+	margin-left: 0px;
+}
+form{
+	word-spacing: -.36em;
+	margin-top: 32px;
 }
