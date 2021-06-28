@@ -227,6 +227,43 @@ header{
 	display: flex;
 	justify-content: center;
 }
+.info-block{
+	height: 580px;
+	width: 360px;
+	background-color: #F8F8F8;
+}
+.info-block-context{
+	height: 160px;
+	width: 100%;
+}
+.info-block-context-title{
+	font-size: 13px;
+	line-height: 16px;
+	color: #000000;
+	margin-top: 25px;
+	margin-left: 18px;
+}
+.info-block-context-text{
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 17px;
+	color:  #5D5D5D;
+	margin-top: 12px;
+	margin-left: 18px;
+	margin-right: 29px;
+}
+.info-block-context-price{
+	font-size: 16px;
+	line-height: 19px;
+	color: #F16D7F;
+	margin-top: 18px;
+	margin-left: 18px;
+	margin-right: 29px;
+}
+
+
+
+
 .catalog-button{
 	height: 45px;
 	width: 209px;
