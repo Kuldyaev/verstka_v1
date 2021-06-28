@@ -54,6 +54,10 @@ h6{
 	margin-top: 24px;
 	display: flex;
 }
+.footer-right-item:hover {
+	background-color: #F16D7F;
+}
+
 .footer-right-item-img{
 	margin-top: 8px;
 	margin-left: 9px;
@@ -414,6 +418,12 @@ header{
 	border-width: 0;
 	margin-left: 0px;
 }
+.bottom-conteiner-link_button:hover {
+	background:#FFFFFF;
+	border-color:#F16D7F;
+	color: #F16D7F;
+}
+
 form{
 	word-spacing: -.36em;
 	margin-top: 32px;
