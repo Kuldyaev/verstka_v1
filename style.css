@@ -191,6 +191,7 @@ header{
 	align-items: center;
 }
 .main-conteiner-block5-title{
+	font-family: "Lato-Bold";
 	font-size: 30px;
 	line-height: 36px;
 	color: #222222;
@@ -556,6 +557,7 @@ header{
 	margin-right:  0px;
 	border-width: 0;
 	padding-left: 22px;
+	outline:none;
 }
 .bottom-conteiner-link_button{
 	color: #FFFFFF;
@@ -581,3 +583,16 @@ form{
 	word-spacing: -.36em;
 	margin-top: 32px;
 }
+
+@font-face {
+	font-family: "Lato-Black";  
+	src: url("./fonts/Lato-Black.ttf") format("truetype"); 
+	font-style: normal; 
+	font-weight: normal;
+ }
+ @font-face {
+	font-family: "Lato-Bold";  
+	src: url("./fonts/Lato-Bold.ttf") format("truetype"); 
+	font-style: normal; 
+	font-weight: normal;
+ }
