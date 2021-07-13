@@ -70,8 +70,31 @@
 
 .main-conteiner-block1{
 	grid-area: block1;
+	display: flex;
+	align-items: center;
+	margin-top:  51px;
+	margin-bottom: 24px;
+	font-weight: 600;
+	font-family: "Lato-Regular";
+}
+.main-conteiner-block1:hover {
+	color: #EF5B70;
+}
+.main-conteiner-block1-logo{
+	margin-left: 11px;
+}
+.main-conteiner-block1-logo path{
+	fill: black;
+}
+.main-conteiner-block1:hover path{
+	fill: #EF5B70;
+}
+.main-conteiner-block12{
+	grid-area: block12;
 	object-fit: contain;
 	position: relative;
+	margin-top:  51px;
+	margin-bottom: 24px;
 }
 .main-conteiner-block2{
 	grid-area: block2;
@@ -164,7 +187,7 @@
 	grid-template-rows: auto;
 	grid-row-gap: 30px;
 	grid-template-areas: 
-    " block1  block1  block1  block1   block1"
+    " block1    .    block12   .        ."
     " block2    .     block3   .       block4" 
     " block5    .     block6   .       block7"
     " block8    .     block9   .       block10"
