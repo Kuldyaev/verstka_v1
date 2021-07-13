@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="style.css" rel="stylesheet" type="text/css">
+	<link href="index.css" rel="stylesheet" type="text/css">
 	<title>html урок</title>
 </head>
 <body>
@@ -12,7 +13,7 @@
 			<div class="main-header conteiner">
 				<div class="header-item header-group1">
 					<div class="header-item-icon">
-						<img class="header-item-icon-img" src="img/iconHome.svg" alt="home icon">
+						<a href="index.html"><img class="header-item-icon-img" src="img/iconHome.svg" alt="home icon"></a>
 					</div>	
 					<div class="header-item-icon">
 						<img class="header-item-icon-img" src="img/iconSearch.svg" alt="search icon">
@@ -21,6 +22,28 @@
 				<div class="header-item header-group2">
 					<div class="header-item-icon">
 						<img class="header-item-icon-img" src="img/iconMenu.svg" alt="home icon">
+						<div class="popUp-menu">
+							<img class="popUp-menu-close-img" src="img/iconCloseMenu.svg" alt="close popUp-menu">
+							<p class="popUp-menu-title">MENU</p>
+							<a class="popUp-menu-group" href='catalog.html'>MAN</a>
+							<a class="popUp-menu-item" href="#">Accessories</a>
+							<a class="popUp-menu-item" href="#">Bags</a>
+							<a class="popUp-menu-item" href="#">Denim</a>
+							<a class="popUp-menu-item" href="#">T-Shirts</a>
+							<a class="popUp-menu-group" href='catalog.html'>WOMAN</a>
+							<a class="popUp-menu-item"  href="#">Accessories</a>
+							<a class="popUp-menu-item"  href="#">Jackets & Coats</a>
+							<a class="popUp-menu-item"  href="#">Polos</a>
+							<a class="popUp-menu-item"  href="#">T-Shirts</a>
+							<a class="popUp-menu-item"  href="#">Shirts</a>
+							<a class="popUp-menu-group" href='catalog.html'>KIDS</a>
+							<a class="popUp-menu-item"  href="#">Accessories</a>
+							<a class="popUp-menu-item"  href="#">Jackets & Coats</a>
+							<a class="popUp-menu-item"  href="#">Polos</a>
+							<a class="popUp-menu-item"  href="#">T-Shirts</a>
+							<a class="popUp-menu-item"  href="#">Shirts</a>
+							<a class="popUp-menu-item" href="#">Bags</a>
+						</div>
 					</div>	
 					<div class="header-item-icon">
 						<img class="header-item-icon-img" src="img/iconUserLK.svg" alt="search icon">
@@ -208,9 +231,11 @@
 					</div>
 				</div>
 				<div class='main-conteiner-block12'>
-					<div class='catalog-button'>
+					<a href="catalog.html">
+						<div class='catalog-button'>
 						Browse All Product
-					</div>	
+						</div>	
+					</a>
 				</div>		
 			</div>
 		</div>
