@@ -1,0 +1,151 @@
+.top-conteiner{
+	background-color: #F1E4E6;
+	width: 100%;
+	height: 148px;
+	display: flex;
+}
+.top-conteiner-block{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.top-conteiner-textblock{
+	height: 100%;
+	display: flex;
+	align-items: center;
+	font-family: "Lato-Regular";
+}
+.textblock1{
+	font-size: 24px;
+	line-height: 29px;
+	color: #F16D7F
+}
+.textblock2{
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 17px;
+	color: #636363;
+}
+#textblock2-span{
+	color: #F16D7F;
+	font-weight: 700;
+}
+
+
+
+.info-block{
+	height: 580px;
+	width: 360px;
+	background-color: #F8F8F8;
+}
+.info-block-context{
+	height: 160px;
+	width: 100%;
+}
+.info-block-context-title{
+	font-size: 13px;
+	line-height: 16px;
+	color: #000000;
+	margin-top: 25px;
+	margin-left: 18px;
+}
+.info-block-context-text{
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 17px;
+	color:  #5D5D5D;
+	margin-top: 12px;
+	margin-left: 18px;
+	margin-right: 29px;
+}
+.info-block-context-price{
+	font-size: 16px;
+	line-height: 19px;
+	color: #F16D7F;
+	margin-top: 18px;
+	margin-left: 18px;
+	margin-right: 29px;
+}
+
+
+.main-conteiner-block1{
+	grid-area: block1;
+	object-fit: contain;
+	position: relative;
+}
+.main-conteiner-block2{
+	grid-area: block2;
+	object-fit: contain;
+	position: relative;
+}
+.main-conteiner-block3{
+	grid-area: block3;
+	object-fit: contain;
+	position: relative;
+}
+.main-conteiner-block4{
+	grid-area: block4;
+	object-fit: contain;
+	position: relative;
+}
+.main-conteiner-block5{
+	grid-area: block5;
+	object-fit: contain;
+	position: relative;
+}
+.main-conteiner-block6{
+	grid-area: block6;
+	object-fit: contain;
+	position: relative;
+}
+.main-conteiner-block7{
+	grid-area: block7;
+	object-fit: contain;
+	position: relative;
+}
+.main-conteiner-block8{
+	grid-area: block8;
+	object-fit: contain;
+	position: relative;
+}
+.main-conteiner-block9{
+	grid-area: block9;
+	object-fit: contain;
+	position: relative;
+}
+.main-conteiner-block10{
+	grid-area: block10;
+	object-fit: contain;
+	position: relative;
+}
+.main-conteiner-block11{
+	grid-area: block11;
+	object-fit: contain;
+	position: relative;
+}
+
+
+
+.main-conteiner-context{
+	width: 100%;
+	display: grid;
+	grid-template-columns: 12fr 1fr 12fr 1fr 12fr ;
+	grid-template-rows: auto;
+	grid-row-gap: 30px;
+	grid-template-areas: 
+    " block1  block1  block1  block1   block1"
+    " block2    .     block3   .       block4" 
+    " block5    .     block6   .       block7"
+    " block8    .     block9   .       block10"
+    " block11 block11 block11 block11  block11";
+}
+
+
+
+ @font-face {
+	font-family: "Lato-Regular";  
+	src: url("./fonts/Lato-Regular.ttf") format("truetype"); 
+	font-style: normal; 
+	font-weight: normal;
+ }
+	
