@@ -130,11 +130,6 @@
 	font-family: "Lato-Regular";
 	border-bottom: 1px solid #EBEBEB;
 }
-
-
-
-
-
 .main-conteiner-block1-logo{
 	margin-left: 11px;
 	width: 15px;
@@ -146,7 +141,41 @@
 	position: relative;
 	margin-top:  51px;
 	margin-bottom: 24px;
+	display: flex;
+	font-family: "Lato-Regular";
+	color: #6F6E6E;
 }
+.main-conteiner-block12-trigger{
+	display: flex;
+	align-items: center;
+	margin-right: 28px;
+	position: relative;
+}
+.triggerName{
+	margin-right: 10px;
+}
+.trigger2:hover .sizePopUp{
+	display: flex;
+	flex-direction: column;
+	color: #6F6E6E;
+	font-family: "Lato-Regular";
+}
+.sizePopUp{
+	position: absolute;
+	top: 20px;
+	left: -10px;
+	width: 80px;
+	height: 103px;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+	background-color: #FFFFFF;
+	z-index: 2;
+	display: none;
+	padding: 7px 9px;
+}
+.labelStyle{
+	margin-bottom: 9px;
+}
+
 .main-conteiner-block2{
 	grid-area: block2;
 	object-fit: contain;
