@@ -30,6 +30,29 @@
 	color: #F16D7F;
 	font-weight: 700;
 }
+.bottom-conteiner{
+	margin-top: 128px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -70,142 +93,10 @@
 
 .main-conteiner-block1{
 	grid-area: block1;
-	margin-top:  51px;
-	margin-bottom: 24px;
-	font-weight: 600;
 	font-family: "Lato-Regular";
 	position: relative;
 }
-.main-conteiner-block1-trigger{
-	display: flex;
-	align-items: center;
-	width: 45%;
-}
-.main-conteiner-block1-trigger2{
-	display: flex;
-	align-items: center;
-	width: 100%;
-	color: #F16D7F;
-}
 
-.main-conteiner-block1:hover .main-conteiner-block1-trigger {
-	color: #EF5B70;
-	display: none;
-}
-
-.main-conteiner-block1-popUp{
-	display: none;
-	position: absolute;
-	top: -13px;
-	left: -16px;
-	width: 360px;
-	height:  531px;
-	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-	padding: 13px 16px 16px 16px;
-	z-index: 2;
-	background-color: #FFFFFF;
-}
-.main-conteiner-block1:hover .main-conteiner-block1-popUp{
-	display: flex;
-	flex-direction: column;
-}
-.main-conteiner-block1-category{
-	width: 100%;
-	height: 37px;
-	display: flex;
-	margin-top: 16px;
-	
-}
-.main-conteiner-block1-categoryBar{
-	height: 100%;
-	width: 5px;
-	background-color: #EF5B70;
-}
-.main-conteiner-block1-categoryName{
-	width: 327px;
-	display: flex;
-	align-items: center;
-	color: #EF5B70;
-	padding-left: 11px;
-	font-family: "Lato-Regular";
-	border-bottom: 1px solid #EBEBEB;
-}
-.main-conteiner-block1-logo{
-	margin-left: 11px;
-	width: 15px;
-}
-
-.main-conteiner-block12{
-	grid-area: block12;
-	object-fit: contain;
-	position: relative;
-	margin-top:  51px;
-	margin-bottom: 24px;
-	display: flex;
-	font-family: "Lato-Regular";
-	color: #6F6E6E;
-}
-.main-conteiner-block12-trigger{
-	display: flex;
-	align-items: center;
-	margin-right: 28px;
-	position: relative;
-}
-.triggerName{
-	margin-right: 10px;
-}
-.trigger2:hover .sizePopUp{
-	display: flex;
-	flex-direction: column;
-	color: #6F6E6E;
-	font-family: "Lato-Regular";
-}
-.sizePopUp{
-	position: absolute;
-	top: 20px;
-	left: -10px;
-	width: 80px;
-	height: 103px;
-	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-	background-color: #FFFFFF;
-	z-index: 2;
-	display: none;
-	padding: 7px 9px;
-}
-.labelStyle{
-	margin-bottom: 9px;
-}
-
-.main-conteiner-block2{
-	grid-area: block2;
-	object-fit: contain;
-	position: relative;
-}
-.main-conteiner-block3{
-	grid-area: block3;
-	object-fit: contain;
-	position: relative;
-}
-.main-conteiner-block4{
-	grid-area: block4;
-	object-fit: contain;
-	position: relative;
-}
-.main-conteiner-block5{
-	grid-area: block5;
-	object-fit: contain;
-	position: relative;
-}
-.main-conteiner-block6{
-	grid-area: block6;
-	object-fit: contain;
-	position: relative;
-}
-.main-conteiner-block7{
-	grid-area: block7;
-	object-fit: contain;
-	position: relative;
-}
 .main-conteiner-block8{
 	grid-area: block8;
 	object-fit: contain;
@@ -221,44 +112,6 @@
 	object-fit: contain;
 	position: relative;
 }
-.main-conteiner-block11{
-	grid-area: block11;
-	display: flex;
-	justify-content: center;
-	margin-top: 18px;
-	height: 158px;
-}
-.pages-numbers{
-	height:  19px;
-	display: flex;
-	border: 1px solid #E5E5E5;
-	padding: 12px 15px ;
-}
-.pages-numbers-item{
-	margin-left: 15px;
-	font-family: "Lato-Regular";
-	font-weight: 300;
-	font-size: 16px;
-	line-height: 19px;
-	color: #E5E5E5;
-}
-.pages-numbers-item:first-of-type  {
-	font-family: sans-serif;
-	margin-left: 0px;
-	color: #000000;
-	font-weight: 600;
-}
-.pages-numbers-item:last-of-type  {
-	font-family: sans-serif;
-	color: #000000;
-	font-weight: 600;
-}
-
-.pages-numbers-item:hover {
-	color: #EF5B70;
-}
-
-
 
 .main-conteiner-context{
 	width: 100%;
@@ -267,11 +120,8 @@
 	grid-template-rows: auto;
 	grid-row-gap: 30px;
 	grid-template-areas: 
-    " block1    .    block12   .        ."
-    " block2    .     block3   .       block4" 
-    " block5    .     block6   .       block7"
-    " block8    .     block9   .       block10"
-    " block11 block11 block11 block11  block11";
+    " block1  block1  block1 block1 block1"
+    " block8    .     block9   .    block10";
 }
 
 
