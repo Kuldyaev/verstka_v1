@@ -17,7 +17,7 @@ main{
 	flex-direction: column;
 }
 .conteiner{
-	
+	position: relative;
 	max-width: 1140px;
 	margin: 0 auto;
 }
