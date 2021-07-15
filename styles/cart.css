@@ -1,0 +1,131 @@
+.top-conteiner{
+	background-color: #F1E4E6;
+	width: 100%;
+	height: 148px;
+	display: flex;
+}
+.top-conteiner-block{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.top-conteiner-textblock{
+	height: 100%;
+	display: flex;
+	align-items: center;
+	font-family: "Lato-Regular";
+}
+.textblock1{
+	font-size: 24px;
+	line-height: 29px;
+	color: #F16D7F
+}
+.textblock2{
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 17px;
+	color: #636363;
+}
+#textblock2-span{
+	color: #F16D7F;
+	font-weight: 700;
+}
+.bottom-conteiner{
+	margin-top: 128px;
+}
+
+
+
+
+
+.info-block{
+	height: 580px;
+	width: 360px;
+	background-color: #F8F8F8;
+}
+.info-block-context{
+	height: 160px;
+	width: 100%;
+}
+.info-block-context-title{
+	font-size: 13px;
+	line-height: 16px;
+	color: #000000;
+	margin-top: 25px;
+	margin-left: 18px;
+}
+.info-block-context-text{
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 17px;
+	color:  #5D5D5D;
+	margin-top: 12px;
+	margin-left: 18px;
+	margin-right: 29px;
+}
+.info-block-context-price{
+	font-size: 16px;
+	line-height: 19px;
+	color: #F16D7F;
+	margin-top: 18px;
+	margin-left: 18px;
+	margin-right: 29px;
+}
+
+.main-conteiner-context{
+	position: relative;
+
+}
+
+.main-conteiner-block1{
+	grid-area: block1;
+	height: 600px;
+	background-color: #FFFFFF;
+	border: 1px solid #EAEAEA;
+	display: flex;
+	justify-content: center;
+}
+
+.triggerName{
+	margin-right: 9px;
+}
+
+
+
+
+.main-conteiner-block8{
+	grid-area: block8;
+	object-fit: contain;
+	position: relative;
+}
+.main-conteiner-block9{
+	grid-area: block9;
+	object-fit: contain;
+	position: relative;
+}
+.main-conteiner-block10{
+	grid-area: block10;
+	object-fit: contain;
+	position: relative;
+}
+
+.main-conteiner-context{
+	width: 100%;
+	display: grid;
+	grid-template-columns: 12fr 1fr 12fr 1fr 12fr ;
+	grid-template-rows: auto;
+	grid-row-gap: 129px;
+	grid-template-areas: 
+    " block1  block1  block1 block1 block1"
+    " block8    .     block9   .    block10";
+}
+
+
+
+ @font-face {
+	font-family: "Lato-Regular";  
+	src: url("./fonts/Lato-Regular.ttf") format("truetype"); 
+	font-style: normal; 
+	font-weight: normal;
+ }
+	
