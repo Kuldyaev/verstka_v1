@@ -3,6 +3,8 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<link href="styles/style.css" rel="stylesheet" type="text/css">
 	<link href="styles/reg.css" rel="stylesheet" type="text/css">
 	<title>html урок</title>
@@ -74,7 +76,45 @@
 
 		<main class="conteiner">
 			<div class="main-conteiner-context">
-	
+				<div class="main-conteiner-context-item1"> 
+					<form>
+						<div class="mb-3">
+							<input type="text" class="form-control" placeholder="First name" aria-label="First name"/>
+							<input type="text" class="form-control" placeholder="Last name" aria-label="Last name"/>
+						</div>
+						<div class="form-check">
+							<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+							<label class="form-check-label" for="flexCheckDefault">
+								Default checkbox
+							</label>
+						</div>
+						<div class="form-check">
+							<input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+							<label class="form-check-label" for="flexCheckChecked">
+						    Checked checkbox
+							</label>
+						</div>
+						<div class="mb-3">
+						    <label for="exampleInputPassword1" class="form-label">Password</label>
+
+							<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" />
+							<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" />
+						</div>
+						<button type="submit" class="btn btn-primary">Submit</button>
+					</form>
+				</div>
+				<div class="main-conteiner-context-item2"> 
+					<h5 class="condition condition-title">LOYALTY  HAS  ITS  PERKS</h5>
+					<p class="condition condition-text"> Get in on the loyalty program where you can earn points and unlock serious perks. Starting with these as soon as you join:</p>
+					<ul class="condition">
+						<li class="condition condition-listItem">15% off welcome offer</li>
+						<li class="condition condition-listItem">Free shipping, returns and exchanges on all orders</li>
+						<li class="condition condition-listItem">$10 off a purchase on your birthday</li>
+						<li class="condition condition-listItem">Early access to products</li>
+						<li class="condition condition-listItem">Exclusive offers & rewards</li>	
+					</ul>	
+
+				</div>
 			</div>
 		</main>	
 		<div class="bottom-conteiner">
@@ -122,4 +162,7 @@
 			</div>
 		</div>	
 	</footer>	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Включают все скомпилированные плагины (ниже), или включать отдельные файлы по мере необходимости -->  
+    <script src="js/bootstrap.min.js"></script>
 </body>		

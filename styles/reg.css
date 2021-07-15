@@ -35,6 +35,38 @@
 }
 
 
+.main-conteiner-context{
+	display: flex;
+}
+.main-conteiner-context-item1{
+	width: 32%;
+}
+.main-conteiner-context-item2{
+	width: 68%;
+	padding: 64px 0px 10px 128px; 
+}
+.condition{
+	font-family: "Lato-Regular";
+	color: #000000;
+	font-weight: 300;
+	font-size: 24px;
+	line-height: 29px;
+}
+.condition-text{
+	margin-top: 22px;
+	margin-bottom: 22px;
+}
+. condition-listItem{
+	margin-bottom: 16px;
+}
+ul{
+	margin-left: 30px;
+	list-style-position: outside;
+	list-style-image: url('../img/marker.svg');
+}
+li{
+	padding-left: 15px;
+}
 
 
 
@@ -43,7 +75,7 @@
 
  @font-face {
 	font-family: "Lato-Regular";  
-	src: url("./fonts/Lato-Regular.ttf") format("truetype"); 
+	src: url("../fonts/Lato-Regular.ttf") format("truetype"); 
 	font-style: normal; 
 	font-weight: normal;
  }
