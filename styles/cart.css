@@ -85,9 +85,50 @@
 	height: 100%;
 	width: 262px;
 }
-.catdInfo{
+.cardInfo{
 	height: 100%;
 	width: 390px;
+	padding: 22px 22px 22px 31px;
+}
+.cardInfoTopBlock{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 42px;
+}
+.cardInfoTopBlockTitle{
+	width: 262px;
+	font-family: "Lato-Regular";
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 29px;
+	color: #222222;	
+	hyphens: none;
+}
+.cardInfoText{
+	font-family: "Lato-Regular";
+	font-weight: normal;
+	font-size: 22px;
+	line-height: 26px;
+	color: #575757;
+	margin-bottom: 6px;
+}
+span{
+	color: #F16D7F;	
+}
+.cardInfoQuontity{
+	display: flex;
+	justify-content: space-between;
+	width: 165px;
+}
+.quontityNumber{
+	height: 24px;
+	width: 43px;
+	border: 1px solid #EAEAEA;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 18px;
+	line-height: 22px;
 }
 
 
