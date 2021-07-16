@@ -176,17 +176,16 @@ header{
 }
 .bottom-conteiner-services{
 	width:  100%;
-	height: 341px;
 	background-color: #222224;	
 }
 .bottom-services{
 	height: 100%;
+	padding: 0px 10px;
 	display: flex;
 	justify-content: space-between;
 }
 .bottom-services-item{
-	height: 100%;
-	width: 32%;
+	padding: 103px 10px 103px 10px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -242,12 +241,10 @@ header{
 }
 .bottom-conteiner-subscribe{
 	width:  100%;
-	height: 448px;	
-	
- 	display: flex;
+	display: flex;
 }
 .bottom-conteiner-subscribe-item{
-	height: 100%;
+	padding: 86px 0px 100px 0px;
 	width: 50%;
 	
 }

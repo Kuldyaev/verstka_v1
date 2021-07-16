@@ -292,21 +292,44 @@
 	width: 100%;
 	margin-top: 65px;
 	display: grid;
-	grid-template-columns: 12fr 1fr 12fr 1fr 12fr ;
+	grid-template-columns: 58fr 5fr 27fr 4fr 27fr 5fr 58fr;
 	grid-template-rows: auto;
 	grid-row-gap: 30px;
 	grid-template-areas: 
-    " block1    .     block2   .       block3"
-    " block4  block4  block4  block4   block4" 
-    " block5  block5  block5  block5   block5"
-    " block6    .     block7   .       block8"
-    " block9    .     block10  .       block11"
-    " block12 block12 block12 block12  block12";
-
-
+    " block1    .     block2  block2  block2     .    block3"
+    " block4  block4  block4  block4  block4  block4  block4" 
+    " block5  block5  block5  block5  block5  block5  block5"
+    " block6  block6  block6     .    block7  block7  block7"
+    " block8  block8  block8     .    block9  block9  block9"
+    " block10 block10 block10    .    block11 block11 block11"
+    " block12 block12 block12 block12 block12 block12 block12";
 }
 
 
+
+
+
+@media screen (max-width: 768px) and (min-width: 376px){
+
+
+
+
+	.main-conteiner-context{
+		width: 100%;
+		margin-top: 65px;
+		display: grid;
+		grid-template-columns: 12fr 1fr 12fr 1fr 12fr ;
+		grid-template-rows: auto;
+		grid-row-gap: 30px;
+		grid-template-areas: 
+	    " block1    .     block2   .       block3"
+	    " block4  block4  block4  block4   block4" 
+	    " block5  block5  block5  block5   block5"
+	    " block6    .     block7   .       block8"
+	    " block9    .     block10  .       block11"
+	    " block12 block12 block12 block12  block12";
+	}
+}
 
 @media screen and (max-width: 375px)  {
 	.top-conteiner-textblock{
@@ -325,6 +348,53 @@
 		font-weight: 900;
 		font-size: 38px;
 		line-height: 46px;
+	}
+	.bottom-services{
+		flex-direction: column;
+		padding-bottom: 81px;
+	}
+	.bottom-services-item{
+		padding: 46px 10px 3px 10px;	
+	}
+	.bottom-conteiner-subscribe{
+		flex-direction: column;
+	}	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	.main-conteiner-context{
+	width: 100%;
+	padding: 0 10px;
+	margin-top: 64px;
+	display: grid;
+	grid-template-columns: 1fr ;
+	grid-template-rows: auto;
+	grid-row-gap: 30px;
+	grid-template-areas: 
+    " block1 "
+    " block2 "
+    " block3 "
+    " block4 " 
+    " block5 "
+    " block6 "
+    " block7 "
+    " block8 "
+    " block9 "
+    " block10"
+    " block11"
+    " block12";
 	}
 }
 
