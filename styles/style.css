@@ -190,10 +190,6 @@ header{
 	justify-content: center;
 	align-items: center;
 }
-.bottom-services-item-block{
-	height: 134px;
-	width: 360px;
-}
 .bottom-services-item-block-title{
 	height: 24px;
 	margin-top: 28px;
@@ -241,6 +237,7 @@ header{
 }
 .bottom-conteiner-subscribe{
 	width:  100%;
+	padding: 0px 5px 0px 5px;
 	display: flex;
 }
 .bottom-conteiner-subscribe-item{
@@ -249,12 +246,11 @@ header{
 	
 }
 .bottom-conteiner-subscribe-img{
-	margin-top:  100px;
 	max-width: 96px;
 	max-height: 96px;
 }
 .bottom-conteiner-subscribe-text{
-	width: 360px;
+	max-width: 360px;
 	height: 100px;
 	margin-top: 30px;
 
@@ -263,6 +259,7 @@ header{
 	display: flex;
 	flex-direction: column;
  	align-items:  center;
+ 	justify-content: center;
 }
 .bottom-conteiner-text{
 	font-family: Lato;
@@ -274,9 +271,9 @@ header{
 	color: #222224;
 }
 .bottom-conteiner-subscribe-link-text{
-	width: 557px;
-	height: 60px;
-	margin-top: 150px;
+	max-width: 557px;
+	max-height: 60px;
+	margin-top: 0px;
 }
 .bottom-conteiner-link-text{
 	font-style: normal;
@@ -323,11 +320,31 @@ form{
 	margin-top: 32px;
 }
 
+@media screen and (max-width: 768px) and (min-width: 376px){
+	.bottom-services{
+		flex-direction: column;
+		padding-bottom: 40px;
+	}
+	.bottom-services-item{
+		padding: 46px 10px 3px 10px;	
+	}
+	.bottom-conteiner-subscribe{
+		flex-direction: column;
+	}
+	.bottom-conteiner-subscribe-item{
+		padding: 86px 0px 0px 0px;
+		width: 100%;
+	}
+	.bottom-conteiner-subscribe-text{
+		margin-top: 0px;
+	}
+	.bottom-conteiner-subscribe-link-text{
+		margin-top: 10px;
+	}
 
+}	
  
-@media screen (max-width: 768px) and (min-width: 376px){
 
-}
 @media screen and (max-width: 375px)  {
 	.iconLK, .top-conteiner-img, .iconCartHeader{
 		display: none;
@@ -344,6 +361,27 @@ form{
 	.top-conteiner{
 		min-height: 363px;
 	}
+	.bottom-services{
+		flex-direction: column;
+		padding-bottom: 81px;
+	}
+	.bottom-services-item{
+		padding: 46px 10px 3px 10px;	
+	}
+	.bottom-conteiner-subscribe{
+		flex-direction: column;
+	}
+	.bottom-conteiner-subscribe-item{
+		padding: 86px 0px 0px 0px;
+		width: 100%;
+	}
+	.bottom-conteiner-subscribe-text{
+			margin-top: 0px;
+	}
+		.bottom-conteiner-subscribe-link-text{
+		margin-top: 10px;
+	}
+	
 }
 
 
