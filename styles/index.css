@@ -12,8 +12,19 @@
 	background-color: #F16D7F;
 	margin-right: 16px;
 }
-
-
+.top-conteiner-text-block{
+	width: 100%;
+	display: flex;
+	justify-content: left;
+}
+.top-conteiner-textblock{
+	width: 100%;
+	max-height: 92px;
+	padding: 30% 0 30% 5%;
+	display: flex;
+	justify-content: left;
+	align-items: center;
+}
 .bigLetters{
 	font-weight: 900;
 	font-size: 48px;
@@ -195,6 +206,7 @@
 	line-height: 17px;
 	color:  #5D5D5D;
 	margin-top: 12px;
+	max-width: 90%;
 }
 .info-block-context-price{
 	font-size: 16px;
@@ -309,7 +321,11 @@
 
 
 @media screen and (max-width: 768px) and (min-width: 376px){
-
+	.bigLetters{
+		font-weight: 900;
+		font-size: 38px;
+		line-height: 45px;
+	}
 
 	.main-conteiner-context{
 		width: 100%;
@@ -337,6 +353,12 @@
 		display: flex;
 		justify-content: left;
 	}
+	.top-conteiner-text-block{
+		width: 100%;
+		padding: 148px 56px;
+		display: flex;
+		justify-content: left;
+	}
 	.top-conteiner-textblock-context{
 		font-family: "Lato-Regular";
 		font-weight: normal;
@@ -349,19 +371,6 @@
 		font-size: 38px;
 		line-height: 46px;
 	}
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

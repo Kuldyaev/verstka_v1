@@ -283,21 +283,23 @@ header{
 	color: #222224;
 	font-weight: 400;
 }
+.subscribe-form{
+	max-width: 90%;
+	display: flex;
+}
 .bottom-conteiner-link-inputarea{
 	background-color: #E1E1E1;
-	width:256px;
+	width:72%;
 	height:49px;
 	border-radius:  23px 0 0 23px;
 	border-color:#E1E1E1;
-	margin-left: 40px;
-	margin-right:  0px;
 	border-width: 0;
 	padding-left: 22px;
 	outline:none;
 }
 .bottom-conteiner-link_button{
 	color: #FFFFFF;
-	width:100px;
+	width:28%;
 	height:49px;
 	border-radius: 0 23px 23px 0;
 	background:#F16D7F;
@@ -307,7 +309,7 @@ header{
 	font-style: normal;
 	font-weight: normal;
 	border-width: 0;
-	margin-left: 0px;
+	
 }
 .bottom-conteiner-link_button:hover {
 	background:#FFFFFF;
@@ -317,10 +319,11 @@ header{
 
 form{
 	word-spacing: -.36em;
-	margin-top: 32px;
 }
 
 @media screen and (max-width: 768px) and (min-width: 376px){
+
+
 	.bottom-services{
 		flex-direction: column;
 		padding-bottom: 40px;
@@ -328,6 +331,18 @@ form{
 	.bottom-services-item{
 		padding: 46px 10px 3px 10px;	
 	}
+
+	.bottom-conteiner-link-text{
+		font-size: 24px;
+		line-height: 28px;
+		margin-bottom: 25px;
+	}
+	.bigLettertext{
+		font-size: 24px;
+		line-height: 36px;
+	}
+
+
 	.bottom-conteiner-subscribe{
 		flex-direction: column;
 	}
@@ -352,12 +367,7 @@ form{
 	.top-conteiner-img-block{
 		width: 0px;
 	}
-	.top-conteiner-text-block{
-		width: 100%;
-		padding: 148px 56px;
-		display: flex;
-		justify-content: left;
-	}
+
 	.top-conteiner{
 		min-height: 363px;
 	}
@@ -375,13 +385,21 @@ form{
 		padding: 86px 0px 0px 0px;
 		width: 100%;
 	}
-	.bottom-conteiner-subscribe-text{
-			margin-top: 0px;
+	.bottom-conteiner-link-text{
+		font-size: 14px;
+		line-height: 21px;
+		margin-bottom: 20px;
 	}
-		.bottom-conteiner-subscribe-link-text{
+	.bigLettertext{
+		font-size: 24px;
+		line-height: 36px;
+	}
+	.bottom-conteiner-subscribe-text{
+		margin-top: 0px;	
+	}
+	.bottom-conteiner-subscribe-link-text{
 		margin-top: 10px;
 	}
-	
 }
 
 
