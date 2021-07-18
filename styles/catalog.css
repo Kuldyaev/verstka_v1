@@ -5,8 +5,6 @@
 	color: #636363;
 	font-family: "Lato-Regular";
 }
-
-
 .top-conteiner{
 	background-color: #F1E4E6;
 	width: 100%;
@@ -39,9 +37,6 @@
 	color: #F16D7F;
 	font-weight: 700;
 }
-
-
-
 .info-block{
 	height: 580px;
 	width: 360px;
@@ -75,8 +70,6 @@
 	margin-left: 18px;
 	margin-right: 29px;
 }
-
-
 .main-conteiner-block1{
 	grid-area: block1;
 	margin-top:  51px;
@@ -96,12 +89,10 @@
 	width: 100%;
 	color: #F16D7F;
 }
-
 .main-conteiner-block1:hover .main-conteiner-block1-trigger {
 	color: #EF5B70;
 	display: none;
 }
-
 .main-conteiner-block1-popUp{
 	display: none;
 	position: absolute;
@@ -123,7 +114,6 @@
 	height: 37px;
 	display: flex;
 	margin-top: 16px;
-	
 }
 .main-conteiner-block1-categoryBar{
 	height: 100%;
@@ -143,7 +133,6 @@
 	margin-left: 11px;
 	width: 15px;
 }
-
 .main-conteiner-block12{
 	grid-area: block12;
 	object-fit: contain;
@@ -184,7 +173,6 @@
 .labelStyle{
 	margin-bottom: 9px;
 }
-
 .main-conteiner-block2{
 	grid-area: block2;
 	object-fit: contain;
@@ -262,13 +250,43 @@
 	color: #000000;
 	font-weight: 600;
 }
-
 .pages-numbers-item:hover {
 	color: #EF5B70;
 }
-
-
-
+.bottom-conteiner-services{
+	width:  100%;
+	background-color: #222224;	
+}
+.bottom-services{
+	height: 100%;
+	padding: 0px 10px;
+	display: flex;
+	justify-content: space-between;
+}
+.bottom-services-item{
+	padding: 103px 10px 103px 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.bottom-services-item-block-title{
+	height: 24px;
+	margin-top: 28px;
+	color: white;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 19.96px;
+	line-height: 24px;
+}
+.bottom-services-item-block-text{
+	height: 34px;
+	margin-top: 16px;
+	color: #FBFBFB;
+	font-weight: 300;
+	font-size: 13.972px;
+	line-height: 17px;
+	text-align: center;
+}
 .main-conteiner-context{
 	width: 100%;
 	display: grid;
@@ -282,13 +300,9 @@
     " block8    .     block9   .       block10"
     " block11 block11 block11 block11  block11";
 }
-
-
-
- @font-face {
+@font-face {
 	font-family: "Lato-Regular";  
 	src: url("./fonts/Lato-Regular.ttf") format("truetype"); 
 	font-style: normal; 
 	font-weight: normal;
  }
-	

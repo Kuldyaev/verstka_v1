@@ -26,15 +26,9 @@
 	line-height: 17px;
 	color: #636363;
 }
-#textblock2-span{
-	color: #F16D7F;
-	font-weight: 700;
-}
 .bottom-conteiner{
 	margin-top: 128px;
 }
-
-
 .main-conteiner-context{
 	display: flex;
 }
@@ -128,7 +122,6 @@ label{
 	height: 20px;
 	margin-top: 30px;
 }
-
 .checkFormLabel{
 	margin: 4px 10px 0px 10px;
 	font-family: "Lato-Regular";
@@ -137,14 +130,9 @@ label{
 	line-height: 13px;
 	color: #000000;
 }
-
-
-
-
- @font-face {
+@font-face {
 	font-family: "Lato-Regular";  
 	src: url("../fonts/Lato-Regular.ttf") format("truetype"); 
 	font-style: normal; 
 	font-weight: normal;
  }
-	

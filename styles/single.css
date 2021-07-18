@@ -30,9 +30,6 @@
 	color: #F16D7F;
 	font-weight: 700;
 }
-.bottom-conteiner{
-	margin-top: 128px;
-}
 .bigImgBlock{
 	width: 100%;
 	height: 777px;
@@ -65,26 +62,6 @@
 .navBtns:hover .navBtnsLink{
 	color:  #F16D7F;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .info-block{
 	height: 580px;
 	width: 360px;
@@ -243,10 +220,6 @@ hr{
 .triggerName{
 	margin-right: 9px;
 }
-
-
-
-
 .main-conteiner-block8{
 	grid-area: block8;
 	object-fit: contain;
@@ -262,7 +235,6 @@ hr{
 	object-fit: contain;
 	position: relative;
 }
-
 .main-conteiner-context{
 	width: 100%;
 	display: grid;
@@ -273,10 +245,7 @@ hr{
     " block1  block1  block1 block1 block1"
     " block8    .     block9   .    block10";
 }
-
-
-
- @font-face {
+@font-face {
 	font-family: "Lato-Regular";  
 	src: url("./fonts/Lato-Regular.ttf") format("truetype"); 
 	font-style: normal; 

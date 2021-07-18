@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="styles/style.css" rel="stylesheet" type="text/css">
 	<link href="styles/catalog.css" rel="stylesheet" type="text/css">
-	<title>html урок</title>
+	<title>Каталог</title>
 </head>
 <body>
 	<div class="wrapper">
@@ -13,17 +13,31 @@
 			<div class="main-header conteiner">
 				<div class="header-item header-group1">
 					<div class="header-item-icon">
-						<a href="index.html"><img class="header-item-icon-img" src="img/iconHome.svg" alt="home icon"/></a>
+						<a href="index.html">
+							<img class="header-item-icon-img" src="img/iconHome.svg" alt="home icon"/>
+						</a>
 					</div>	
 					<div class="header-item-icon">
 						<img class="header-item-icon-img" src="img/iconSearch.svg" alt="search icon"/>
 					</div>
 				</div>
 				<div class="header-item header-group2">
+					<div class="header-item-icon iconCartHeader">
+						<a href="cart.html">
+							<img class="header-item-icon-img" src="img/iconCart.svg" alt="home icon"/>
+							<img class="header-item-icon-img header-item-icon-img-circle" src="img/iconCartCircle.svg" alt="home icon"/>
+							<h6 class="header-item-icon-img header-item-icon-img-number">5</h6>
+						</a>
+					</div>	
+					<div class="header-item-icon iconLK">
+						<a href="reg.html">
+							<img class="header-item-icon-img" src="img/iconUserLK.svg" alt="search icon"/>
+						</a>
+					</div>
 					<div class="header-item-icon">
-						<img class="header-item-icon-img" src="img/iconMenu.svg" alt="home icon"/>
+						<img class="header-item-icon-img header-item-icon-imgMenu" src="img/iconMenu.svg" alt="home icon">
 						<div class="popUp-menu">
-							<img class="popUp-menu-close-img" src="img/iconCloseMenu.svg" alt="close popUp-menu"/>
+							<img class="popUp-menu-close-img" src="img/iconCloseMenu.svg" alt="close popUp-menu">
 							<p class="popUp-menu-title">MENU</p>
 							<a class="popUp-menu-group" href='catalog.html'>MAN</a>
 							<a class="popUp-menu-item" href="#">Accessories</a>
@@ -45,22 +59,10 @@
 							<a class="popUp-menu-item" href="#">Bags</a>
 						</div>
 					</div>	
-					<div class="header-item-icon">
-						<a href="reg.html">
-							<img class="header-item-icon-img" src="img/iconUserLK.svg" alt="search icon"/>
-						</a>
-					</div>
-					<div class="header-item-icon">
-						<a class="link" href="cart.html">
-							<img class="header-item-icon-img" src="img/iconCart.svg" alt="home icon"/>
-							<img class="header-item-icon-img header-item-icon-img-circle" src="img/iconCartCircle.svg" alt="home icon"/>
-							<h6 class="header-item-icon-img header-item-icon-img-number">5</h6>
-						</a>
-					</div>	
 				</div>
 			</div>
-		</header>
-		<div class='top-conteiner'>
+		</header>	
+		<section class='top-conteiner'>
 			<div class="top-conteiner-block conteiner">
 				<div class="top-conteiner-textblock textblock1">
 					<p>NEW  ARRIVALS </p>
@@ -74,7 +76,7 @@
 						</a> / MEN / <span id="textblock2-span">NEW ARRIVALS</span> </p>
 				</div>
 			</div>
-		</div>	
+		</section>	
 		<main class="conteiner">
 			<div class="main-conteiner-context ">
 				<div class='main-conteiner-block1'>
@@ -263,8 +265,8 @@
 						</div>  
 					</div>
 				</div>
-		</main>	
-		<div class="bottom-conteiner">
+		</main>
+		<section class="bottom-conteiner">
 			<div class="bottom-conteiner-services ">
 				<div class='bottom-services conteiner'>
 					<div class="bottom-services-item">
@@ -300,7 +302,6 @@
 							</div>
 						</div>	
 					</div>
-
 				</div>
 			</div>
 			<div class="bottom-conteiner-subscribe-main">
@@ -314,8 +315,8 @@
 						</div>
 						<div class="bottom-conteiner-subscribe-item center">
 							<div class="bottom-conteiner-subscribe-link-text">
-								<p class="bottom-conteiner-link-text"><b>SUBSCRIBE</b><br/> FOR OUR NEWLETTER AND PROMOTION</p>
-								<form action="#">
+								<p class="bottom-conteiner-link-text"><span class="bigLettertext"><b>SUBSCRIBE</b></span><br/> FOR OUR NEWLETTER AND PROMOTION</p>
+								<form class="subscribe-form" action="#">
 									<input class='bottom-conteiner-link-inputarea' type="email" placeholder="Enter Your Email" />
 									<input type='submit' class="bottom-conteiner-link_button" value="Subscribe"/>
 								</form>	
@@ -324,7 +325,7 @@
 					</div>
 				</div>
 			</div>
-		</div>	
+		</section>	
 	</div>
 	<footer>
 		<div class="footer conteiner">
@@ -347,4 +348,4 @@
 			</div>
 		</div>	
 	</footer>	
-</body>
+</body>		
