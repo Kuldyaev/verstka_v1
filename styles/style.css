@@ -104,12 +104,41 @@ header{
 .header-item-icon{
 	height: 100%;
 	width: 46px;
+	opacity: 1;
 	position:relative;
+
 }
 .header-item-icon-img{
 	position: absolute;
 	bottom: 19px;
+	display: block;
+	webkit-animation-name: example; /* Chrome, Safari, Opera */
+	-webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
+	animation-name: example;
+	animation-duration: 4s;
 }
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes example {
+0% {opacity: 0;}
+25% {opacity: 0.3;}
+50% {opacity:0.5;}
+75% {opacity:0.7;}
+100% {opacity:1;}
+}
+
+/* Standard syntax */
+@keyframes example {
+0% {opacity: 0;}
+25% {opacity: 0.3;}
+50% {opacity:0.5;}
+75% {opacity:0.7;}
+100% {opacity:1;}
+}
+
+
+
+
 .header-item-icon-img-circle{
 	position: absolute;
 	bottom: 37px;
@@ -139,13 +168,22 @@ header{
 	display: flex;
 	flex-direction: column;
 }
-
 .popUp-menu-close-img{
+	display: block;
 	width: 12px;
 	height:  12px;
 	margin-right: 0px;
 	margin-left: auto;
 }
+.header-item-icon:hover .header-item-icon-imgMenu{
+	-moz-transform: rotate(90deg); /* Для Firefox */
+    -ms-transform: rotate(90deg); /* Для IE */
+    -webkit-transform: rotate(90deg); /* Для Safari, Chrome, iOS */
+    -o-transform: rotate(90deg); /* Для Opera */
+    transform: rotate(90deg);
+}
+
+
 .popUp-menu-group{
 	margin-top: 20px;
 	font-size: 14px;
@@ -165,6 +203,14 @@ header{
 	margin-top: 12px;
 	color: #6F6E6E;
 	font-family: "Lato-Regular";
+}
+.popUp-menu-item:hover {
+	color: #000000;
+	font-family: "Lato-Bold";
+}
+.popUp-menu-group:hover {
+	color: #e00404;
+	font-size: 18px;
 }
 
 
